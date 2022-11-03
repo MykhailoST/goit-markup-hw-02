@@ -1,0 +1,32 @@
+body {
+    color: #757575;
+    font-family: Roboto;
+
+}
+
+span {
+    color: #2196F3;
+}
+
+.logo {
+    color: #000000;
+}
+
+.logo:hover, 
+.logo:focus {
+    color: #2196F3;
+}
+
+/*main-nav*/
+
+.main-nav .link {
+    color: #212121;
+}
+
+.main-nav .link:hover, 
+.main-nav .link:focus{
+    color: #2196F3;
+}
+
+/*header > ul */
+
