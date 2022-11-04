@@ -17,16 +17,106 @@ span {
     color: #2196F3;
 }
 
+
 /*main-nav*/
 
-.main-nav .link {
+.main-nav, .link {
     color: #212121;
 }
 
 .main-nav .link:hover, 
-.main-nav .link:focus{
+.main-nav .link:focus {
     color: #2196F3;
 }
 
-/*header > ul */
 
+/* header > ul */
+
+.mail {
+    color: #757575;
+}
+
+
+.tel {
+    color: #757575;
+}
+
+
+.mail:hover,
+.mail:focus {
+    color: #2196F3;
+}
+
+.tel:hover,
+.tel:focus {
+    color: #2196F3;
+}
+
+
+/*main*/
+
+/*hero*/
+
+.hero-title {
+    color: #FFFFFF;
+}
+
+/*feature-list*/
+
+.feature-list .title {
+    color: #212121;
+}
+
+/*picture*/
+
+.picture {
+    color: #212121;
+}
+
+/*team*/
+
+.team {
+    color: #212121;
+}
+
+.team-member {
+    color: #212121;
+}
+
+
+/*footer*/
+
+.footer-logo {
+    color: #FFFFFF;
+}
+
+.footer-logo:hover,
+.footer-logo:focus {
+    color: #2196F3;
+}
+
+.link-addres {
+    color: #FFFFFF;
+}
+
+.link-addres:hover,
+.link-addres:focus {
+    color: #2196F3;
+}
+
+.link-mail {
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.link-mail:hover,
+.link-mail:focus {
+    color: #2196F3;
+}
+
+.link-tel {
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.link-tel:hover,
+.link-tel:focus {
+    color: #2196F3;
