@@ -47,6 +47,10 @@ span {
     color: var(--span-color);
 }
 
+.main-nav .link.current {
+    color: var(--span-color);
+}
+
 
 /* header > ul */
 
@@ -77,23 +81,12 @@ span {
     color: var(--hero-title-color);
 }
 
-/* button */
+/* button ??? */
 
 .button {
     color: var(--hero-title-color);
     background-color: var(--span-color);  
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    position: absolute;
-    width: 216px;
-    height: 50px;
-    left: 692px;
-    top: 430px;
+        
 }
 
 /*feature-list*/
