@@ -64,7 +64,7 @@ span {
 /* header > ul */
 
 .mail {
-    color: #757575;
+    color: var(--body-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1, 14;
@@ -72,7 +72,7 @@ span {
 }
 
 .tel {
-    color: #757575;
+    color: var(--body-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1, 14;
@@ -230,10 +230,41 @@ span {
     color: var(--span-color);
 }
 
-.link {
-    text-decoration: none;
+
+.but {
+    color: var(--main-nav-link-color);
+    background-color: var(--hero-title-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+.but.portf {
+    color: var(--hero-title-color);
+    background-color: #2196F3;
+}
+
+.project {
+    color: var(--main-nav-link-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.description {
+    color: var(--body-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
 }
 
 ul {
     list-style: none;
+}
+
+.portfolio {
+    display: none;
+}
+
+.link {
+    text-decoration: none;
 }
