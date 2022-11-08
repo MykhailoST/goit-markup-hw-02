@@ -113,6 +113,7 @@ span {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    cursor: pointer;
 }
 
 /*feature-list*/
@@ -127,7 +128,6 @@ span {
 }
 
 .feature-list p {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -163,7 +163,6 @@ span {
 }
 
 .team-list p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -237,6 +236,7 @@ span {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    cursor: pointer;
 }
 
 .but.portf {
@@ -252,7 +252,6 @@ span {
 }
 .description {
     color: var(--body-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
 }
